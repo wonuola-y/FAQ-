@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css" class="css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+  rel="stylesheet"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  <div class="box1">
+    
+    <div class="faq-main" >
+      <div class="mobile-image">
+        <img class="img-pat" src="bg-pattern-mobile.svg" alt="img">
+        <img class="img-illus" src="illustration-woman-online-mobile.svg" alt="img">
+     </div>
+     <div class="desktop-image">
+       <img  class="box" src="illustration-box-desktop.svg" alt="box">
+       <img class="desktop-woman" src="illustration-woman-online-desktop.svg" alt="desktop">
+       <img class="desktop-pattern" src="bg-pattern-desktop.svg" alt="img">
+     </div>
+     <div class="faq-sub" >
+      <h1>FAQ</h1>
+      <div>
+        <a id="ques1">How many team members can I invite?</a>
+          <button class="but1" onclick="myFunction()"><img class="arrow" src="icon-arrow-down.svg" alt="arrow"></button><br>
+        <p id="ans1"> You can invite up to 2 additional users on the Free plan. There is no limit on 
+       team members for the Premium plan.</p> 
+        </div>
+        <hr>
+        <div>
+        <a id="ques2">What is the maximum file upload size?</a>
+         <button class="but1" onclick="myFnc()"><img class="arrow" src="icon-arrow-down.svg" alt="arrow"></button><br>
+        <p id="ans2"> No more than 2GB. All files in your account must fit your allotted storage space.</p>
+         </div>
+       <hr>
+       <div>
+         <a id="ques3">How do I reset my password?</a>
+         <button class="but1" onclick="myFunc()"><img class="arrow" src="icon-arrow-down.svg" alt="arrow"></button><br>
+         <p id="ans3">Click “Forgot password” from the login page or “Change password” from your profile page.
+         A reset link will be emailed to you.</p>
+       </div>
+       <hr>
+       <div>
+        <a id="ques4"> Can I cancel my subscription? </a>
+          <button class="but1" onclick="myFtn()"><img  class="arrow" src="icon-arrow-down.svg" alt="arrow"></button><br>
+        <p id="ans4">Yes! Send us a message and we’ll process your request no questions asked.
+        </p>
+       </div>
+       <hr>
+       <div class="last">
+        <a id="ques5">Do you provide additional support?</a> 
+        <button class="but1" onclick="myFnt()"><img class="arrow" src="icon-arrow-down.svg" alt="arrow"></button><br>
+        <p id="ans5">     Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </p>
+        <hr class="las">
+       </div>
+     </div>
+    </div>
+ </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+<script src="index.js"></script>
+</html>

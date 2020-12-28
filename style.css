@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Kumbh Sans;
+    background-image: linear-gradient( hsl(273, 75%, 66%),  hsl(240, 73%, 65%));
+    min-height: 100vh;
+}
+    
+h1{
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+a:hover{
+    /* font-weight: 700; */
+    color: orange;
+
+}
+
+
+ 
+.box1{
+    display: flex;
+    /* width: 100%; */
+    height: 45%;
+    font-size: 12px;
+    font-family: Kumbh Sans;
+    background-color: white;
+    margin: 15%;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ .img-illus{
+   
+  width: 200px;
+  position: absolute;
+  top: -120px;
+} 
+.mobile-image{
+    display: flex;
+    justify-content: center;
+align-items: center;
+position: relative;
+}
+.img-pat{
+
+    width: 190px;
+    top: -40px;
+  position: absolute;
+    z-index: -0.5;
+}
+.desktop-image{
+    display: none;
+}
+div{
+    margin: 20px;
+}
+
+.las{
+    padding: 0%;
+    margin: 0;
+}
+p{
+    margin-top: 5px;
+    color: hsl(240, 6%, 50%);
+}
+button{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    float: right;
+    border: none;
+    transform: rotate(180deg);
+
+}
+
+hr{
+    color: hsl(240, 5%, 91%);
+    font-weight: 2px;
+
+}
+.faq-sub{
+    margin: 2%;
+    height: 45%;
+}
+
+#ans1{  
+    display: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media only screen and (min-width: 992px){
+    .mobile-image{
+        display: none;
+    }
+    .img-illus{
+        display: none;
+    }
+    .img-pat{
+        display: none;
+    }
+  .box1{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      /* width: 100%; */
+  }
+    .desktop-image{
+        /* margin-top: 40%; */
+        display: flex;
+        position: relative;
+        width: 50%;
+        float: left;
+        /* justify-self: start; */
+        /* height: 100px; */
+        /* align-items: flex-start;s */
+        margin: 0;
+        padding: 0;
+    }
+    .faq-main{
+        margin: 0;
+        padding: 0;
+    }
+    .faq-sub{
+        height: 5%;
+        width: 40%;
+        float: right;
+    }
+    .desktop-woman{
+        
+        margin-top: 300px;
+        width: 400px;
+        margin-left: -50px;
+        
+    }
+    .desktop-pattern{
+        width: 560px;
+        top: 200px;
+        left: -215px;
+        z-index: 1;
+        position: absolute;
+    }
+    .box{
+        top: 420px;
+        width: 260px;
+        height: 200px;
+        left: -135px;
+
+        position: absolute;
+        
+
+    }
+   
+}
